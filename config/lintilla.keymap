@@ -235,7 +235,7 @@
 &kp BSPC    &hml LGUI A   &hml LALT R  &hml LSHIFT S    &hml LCTRL T       &kp D               /* | */        &kp H             &hmr LCTRL N       &hmr LSHIFT E      &hmr LALT I       &hmr LGUI O       &kp SQT
             &kp Z         &kp X        &kp C            &kp V              &kp B               /* | */        &kp K             &kp M              &kp COMMA          &kp DOT           &kp SLASH
                                         /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-                                       &os_shift_caps   &kp ESC            &space NUM SPACE    /* | */        &space NAV ENTER  &kp TAB            &key_repeat
+                                       &space NUM SPACE &kp ESC &os_shift_caps                 /* | */        &key_repeat       &kp TAB            &space NAV ENTER
             >;
         };
 
