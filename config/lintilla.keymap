@@ -18,6 +18,7 @@
 #define BASE 0
 #define NUM 1
 #define NAV 2
+#define SYS 3
 
 / {
     conditional_layers {
@@ -258,17 +259,6 @@
             &none         &none         &none            &none              &none              /* | */        &none          &none              &none              &none              &none
                                         /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
                                         &trans           &trans             &trans             /* | */        &trans         &trans             &trans
-            >;
-        };
-
-        fun_layer {
-            bindings = <
-                          &kp K_MUTE                                                                                                                              &none
-&none       &none         &none         &none           &none              &none              /* | */        &kp K_VOL_UP    &none             &kp F20 /* mic */  &none              &none           &none
-&none       &none         &none         &none           &none              &none              /* | */        &kp K_MUTE      &kp K_PREV        &kp K_PLAY_PAUSE   &kp K_NEXT         &none           &none
-            &none         &none         &none           &none              &none              /* | */        &kp K_VOL_DN    &none             &none              &none              &none
-                                        /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-                                        &none           &none              &none              /* | */        &none          &none              &none
             >;
         };
 
